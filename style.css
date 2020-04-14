@@ -1,12 +1,14 @@
 body {
-  background-color: #FFF0CC
+  background: url("image/b3.jpg");
+  background-color: #FFF0CC;
+  
 
 }
 
 .p1{
     font-size: 35px;
     padding: 55px;
-    background: #afd275;
+    background: #FFF0CC;
     font-family:"Times New Roman";
 
 }
@@ -14,4 +16,38 @@ body {
 .p2 {
   padding:30px;
   font-family:"Times New Roman";
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  overflow: hidden;
+  background-color: darkgreen;
+}
+
+
+li {
+  display: inline;
+  float: left;
+  border-right:0.5px solid green;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+}
+
+.active {
+  background-color: #4CAF50;
 }
