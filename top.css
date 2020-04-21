@@ -1,0 +1,17 @@
+#up_btn{
+  display: none;
+  cursor: pointer;
+  outline: none;
+  position: fixed;
+  right: 30px;
+  z-index: 99;
+  padding: 15px;
+  font-size: 15px;
+  color: black;
+  bottom: 20px;
+  border-radius: 15px;
+}
+
+#up_btn:hover{
+    background-color: #150;
+}
